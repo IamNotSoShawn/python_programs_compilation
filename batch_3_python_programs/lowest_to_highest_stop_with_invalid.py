@@ -1,13 +1,13 @@
-user_numbers = []
+input_num = []
 while True:
     try:
         number = int(input("enter any number, enter an invalid input to stop like a letter or symbol: "))  
-        user_numbers.append(number) 
+        input_num.append(number) 
     except ValueError:
         break  
 
-if user_numbers:
-    user_numbers.sort()  
-    print("numbers from lowest to highest: ", user_numbers)
+if input_num:
+    input_num.sort()  
+    print("numbers from lowest to highest: ", input_num)
 else:
     print("no numbers entered")
