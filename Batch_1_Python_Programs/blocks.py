@@ -4,7 +4,7 @@
 def func (prompt):
     while True:
         try:
-            num = int(input(prompt))
+            num = float(input(prompt))
             return num
         except ValueError:
             print("please enter a numerical character")
@@ -14,7 +14,7 @@ def func (prompt):
 def func (prompt):
     while True:
         try:
-            num = int(input(prompt))
+            num = float(input(prompt))
             if num < 0:
                 print("number cant be negative")
                 continue

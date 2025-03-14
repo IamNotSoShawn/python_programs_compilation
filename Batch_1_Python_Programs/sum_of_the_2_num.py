@@ -1,7 +1,7 @@
 def input_number (prompt):
     while True:
         try:
-            num = int(input(prompt))
+            num = float(input(prompt))
             return num
         except ValueError:
             print("enter numbers only")
