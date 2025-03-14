@@ -1,0 +1,11 @@
+input_num = []
+numbers = []
+
+for input_count in range(10):
+    number = int(input("Enter a number: "))
+    input_num.append(number)
+
+for number in input_num:
+    if number not in numbers:
+        numbers.append(number)
+        print(number)

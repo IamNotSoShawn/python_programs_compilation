@@ -14,7 +14,7 @@ while True:
         while True:
             try:
                 num = input_number("enter your number: ")
-                if num % 2 != 0:
+                if num%2 != 0:
                     odd += 1
                 break
             except ValueError:
